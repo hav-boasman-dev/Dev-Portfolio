@@ -13,7 +13,7 @@ const HeroSection = () => {
       <div className='grid grid-cols-1 sm:grid-cols-12'>
         <div className='col-span-7 place-self-center text-center sm:text-left'>
           <h1 className='mb-4 text-4xl font-extrabold text-white sm:text-5xl lg:text-6xl'>
-            <span className='bg-linear-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent'>
+            <span className='bg-linear-to-r from-purple-500 to-pink-600 bg-clip-text text-transparent'>
               Hello, I'm Haven
             </span>
             <br />
