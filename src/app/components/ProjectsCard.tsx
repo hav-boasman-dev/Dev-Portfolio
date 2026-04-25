@@ -2,7 +2,19 @@ import React from "react";
 import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 
-const ProjectsCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
+const ProjectsCard = ({
+  imgUrl,
+  title,
+  description,
+  gitUrl,
+  previewUrl,
+}: {
+  imgUrl: string;
+  title: string;
+  description: string;
+  gitUrl: string;
+  previewUrl: string;
+}) => {
   return (
     <div>
       <div

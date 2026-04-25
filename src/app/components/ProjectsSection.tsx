@@ -35,29 +35,31 @@ const ProjectsSection = () => {
 
   return (
     <section>
-      <h2 className='mt-4 text-center text-4xl font-bold text-white'>
-        My Projects
-      </h2>
-      <ul ref={ref} className='grid gap-8 md:grid-cols-3 md:gap-12'>
-        {projectsData.map((project, index) => (
-          <motion.li
-            key={index}
-            variants={cardVariants}
-            initial='initial'
-            animate={isInView ? "animate" : "initial"}
-            transition={{ duration: 0.3, delay: index * 0.4 }}
-          >
-            <ProjectCard
-              key={project.id}
-              title={project.title}
-              description={project.description}
-              imgUrl={project.image}
-              gitUrl={project.gitUrl}
-              previewUrl={project.previewUrl}
-            />
-          </motion.li>
-        ))}
-      </ul>
+      <div className='text-white'>
+        <h2 className='mt-4 mb-6 text-center text-4xl font-bold'>
+          My Projects
+        </h2>
+        <ul ref={ref} className='grid gap-8 md:grid-cols-3 md:gap-12'>
+          {projectsData.map((project, index) => (
+            <motion.li
+              key={index}
+              variants={cardVariants}
+              initial='initial'
+              animate={isInView ? "animate" : "initial"}
+              transition={{ duration: 0.3, delay: index * 0.4 }}
+            >
+              <ProjectCard
+                key={project.id}
+                title={project.title}
+                description={project.description}
+                imgUrl={project.image}
+                gitUrl={project.gitUrl}
+                previewUrl={project.previewUrl}
+              />
+            </motion.li>
+          ))}
+        </ul>
+      </div>
     </section>
   );
 };
