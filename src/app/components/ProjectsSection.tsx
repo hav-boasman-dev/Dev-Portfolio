@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectsCard";
+import Image from "next/image";
 import { motion, useInView } from "framer-motion";
 
 const projectsData = [
