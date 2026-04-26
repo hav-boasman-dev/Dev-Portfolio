@@ -7,7 +7,7 @@ const tabData = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className='list-disc pl-2'>
+      <ul className='list-disc pl-2 text-sm'>
         <li>Unity and Unreal Engine</li>
         <li>UI/UX Design</li>
         <li>Git Version Control</li>
@@ -15,6 +15,8 @@ const tabData = [
         <li>Networking and basic CyberSecurity</li>
         <li>Graphic asset production</li>
         <li>User Experience Tuning</li>
+        <li>Web API integration</li>
+        <li>Project management</li>
       </ul>
     ),
   },
@@ -22,21 +24,20 @@ const tabData = [
     title: "Education",
     id: "education",
     content: (
-      <ul>
-        <li>Bachelor of Design - Digital Media</li>
-        <li>Royal Melbourne Institute of Technology, Melbourne, VIC</li>
-      </ul>
-    ),
-  },
-  {
-    title: "Experience",
-    id: "experience",
-    content: (
-      <ul>
-        <li>Popcultcha Warehouse Worker</li>
+      <ul className='text-sm'>
         <li>
-          Order fulfillment, forklift driving, data handling, large team
-          coordination
+          Bachelor of Design <br /> Digital Media
+        </li>
+        <li className='text- text-[#555555]'>
+          Royal Melbourne Institute of Technology
+        </li>
+        <li className=''>
+          <br /> Guaranteed Entry For: <br /> Masters of Animation, Games and
+          Interactivity
+        </li>
+        <li className='text-[#555555]'>
+          Royal Melbourne Institute of Technology <br />
+          Plan to attend course in ~2029
         </li>
       </ul>
     ),
@@ -59,8 +60,14 @@ const AboutSection = () => {
         <div className='mt-2 flex h-full flex-col text-left md:mt-0'>
           <h2 className='mb-4 text-xl font-bold text-white'>About Me</h2>
           <p className='text-base md:text-sm'>
-            placeholder text placeholder text placeholder text placeholder text
-            placeholder text placeholder text placeholder text placeholder text
+            I work primarily on game development but have experience in web
+            design, software solutions and even some networking and
+            CyberSecurity. <br />
+            <br /> I love tinkering with my home server and have recently
+            upgraded it with a UPS, ATS and NUT configuration for graceful
+            shutdown and restart during power outs.
+            <br /> <br /> Away from the computer I love rollerskating at my
+            local rink and thrifting at local markets.
           </p>
           <div className='mt-8 flex flex-row justify-start'>
             <TabButton
@@ -77,15 +84,8 @@ const AboutSection = () => {
               {" "}
               Education{" "}
             </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("experience")}
-              active={tab === "experience"}
-            >
-              {" "}
-              Experience{" "}
-            </TabButton>
           </div>
-          <div className='mt-8'>
+          <div className='mt-4 text-base'>
             {tabData.find((t) => t.id === tab)?.content}
           </div>
         </div>

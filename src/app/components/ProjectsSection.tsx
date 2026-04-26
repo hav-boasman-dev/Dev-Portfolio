@@ -8,19 +8,25 @@ const projectsData = [
     id: 1,
     title: "React Portfolio Website",
     description:
-      "A portfolio made using the next.js framework to learn modern web development pipelines while preparing for work.",
-    image: "/images/Projects/placeholder.png",
-    gitUrl: "/",
-    previewUrl: "/",
+      "This portfolio was made using the next.js framework to learn modern web development pipelines while preparing for work.",
+    image: "/images/Projects/portfolio_screenshot.png",
+    gitUrl: "https://github.com/hav-boasman-dev/dev-portfolio",
   },
   {
     id: 2,
     title: "The Longest Dungeon",
     description:
-      "A Unity based deck building dungeon crawler game exploring the themes of burnout, escapism and the cost of living",
-    image: "/images/Projects/placeholder.png",
+      "A Unity based deck building dungeon crawler game exploring the themes of burnout, escapism and the cost of living as my universty capstone project",
+    image: "/images/Projects/The_Longest_Dungeon.png",
+    gitUrl: "https://github.com/hav-boasman-dev/TheLongDungeon",
+  },
+  {
+    id: 2,
+    title: "Haiku and Hint Fiction",
+    description:
+      "Two small environments based around the concepts of haiku and hint fiction while depicting two of my core memories",
+    image: "/images/Projects/haikus_and_hintFiction.png",
     gitUrl: "/",
-    previewUrl: "/",
   },
 ];
 
@@ -36,8 +42,8 @@ const ProjectsSection = () => {
   return (
     <section>
       <div className='text-white'>
-        <h2 className='mt-4 mb-6 text-center text-4xl font-bold'>
-          My Projects
+        <h2 className='mt-4 mb-10 text-center text-4xl font-bold'>
+          MY PROJECTS / WORK
         </h2>
         <ul ref={ref} className='grid gap-8 md:grid-cols-3 md:gap-12'>
           {projectsData.map((project, index) => (
@@ -54,7 +60,6 @@ const ProjectsSection = () => {
                 description={project.description}
                 imgUrl={project.image}
                 gitUrl={project.gitUrl}
-                previewUrl={project.previewUrl}
               />
             </motion.li>
           ))}

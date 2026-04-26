@@ -19,7 +19,7 @@ const TabButton = ({
 
   return (
     <button onClick={selectTab}>
-      <p className={`${buttonClasses} mr-3 font-semibold`}>{children}</p>
+      <p className={`${buttonClasses} mr-3`}>{children}</p>
       <motion.div
         animate={active ? "active" : "default"}
         variants={variants}

@@ -25,6 +25,10 @@ const HeroSection = () => {
                   1000,
                   "Web Developer",
                   1000,
+                  "UI/UX Designer",
+                  1000,
+                  "Software Generalist",
+                  1000,
                   "Backend Specialist",
                   1000,
                 ]}
@@ -34,25 +38,20 @@ const HeroSection = () => {
               />{" "}
             </span>
           </h1>
-          <p className='mb-4 text-base text-[#ADB7BE] sm:text-lg lg:text-xl'>
-            Placeholder text Placeholder text Placeholder text Placeholder text
-            Placeholder text Placeholder text Placeholder text
+          <p className='lg:text-l sm:text-md mb-4 text-base text-[#ADB7BE]'>
+            I've been expanding my skills into as many areas as I can over the
+            past few years as i believe broader skillsets are becoming more
+            valuable in industry today. <br />
+            <br /> That being said everyone needs something they're the best at
+            and I've been flinging scripts in Unity and Unreal since grade 5 for
+            that exact reason. <br /> Feel free to reach out to me if you want
+            to collaborate, offer a role or even just chat!
           </p>
-          <div>
-            <button className='mr-4 mb-4 w-full rounded-full bg-linear-to-br from-[#00e58e] to-green-500 px-6 py-3 text-white hover:bg-slate-200 sm:w-fit'>
-              Hire Me
-            </button>
-            <button className='mr-4 w-full rounded-full bg-linear-to-br from-[#00e58e] to-green-500 px-1 py-1 text-white hover:bg-slate-800 sm:w-fit'>
-              <span className='block rounded-full bg-[#121212] px-5 py-2 hover:bg-slate-800'>
-                Download CV
-              </span>
-            </button>
-          </div>
         </div>
         <div className='col-span-5 mt-4 place-self-center lg:mt-0'>
           <div className='relative h-50 w-50 lg:h-100 lg:w-100'>
             <Image
-              src='/images/FRANK.png'
+              src='/images/nomai_mask.png'
               alt='hero image'
               className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform'
               width={300}
