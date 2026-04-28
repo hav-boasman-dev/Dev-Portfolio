@@ -10,7 +10,7 @@ const projectsData = [
     title: "React Portfolio Website",
     description:
       "This portfolio was made using the next.js framework to learn modern web development pipelines while preparing for work.",
-    image: "/images/Projects/portfolio_screenshot.png",
+    image: "/images/Projects/portfolioCard.png",
     gitUrl: "https://github.com/hav-boasman-dev/dev-portfolio",
   },
   {
@@ -18,7 +18,7 @@ const projectsData = [
     title: "The Longest Dungeon",
     description:
       "A Unity based deck building dungeon crawler game exploring the themes of burnout, escapism and the cost of living as my universty capstone project",
-    image: "/images/Projects/The_Longest_Dungeon.png",
+    image: "/images/Projects/theLongestDungeonCard.png",
     gitUrl: "https://github.com/hav-boasman-dev/TheLongDungeon",
   },
   {
@@ -26,7 +26,7 @@ const projectsData = [
     title: "Haiku and Hint Fiction",
     description:
       "Two small environments based around the concepts of haiku and hint fiction while depicting two of my core memories",
-    image: "/images/Projects/haikus_and_hintFiction.png",
+    image: "/images/Projects/haikusAndHintFictionCard.png",
     gitUrl: "/",
   },
 ];
