@@ -49,12 +49,12 @@ const ProjectsSection = () => {
   return (
     <section>
       <div className='text-white'>
-        <h2 className='mt-4 mb-10 text-center text-4xl font-bold'>
+        <h2 className='mt-4 mb-10 text-center font-mono text-4xl font-bold text-[#00e58e]'>
           MY PROJECTS / WORK
         </h2>
         <ul
           ref={ref}
-          className='grid gap-8 md:grid-cols-3 md:grid-rows-2 md:gap-12'
+          className='grid grid-cols-1 gap-8 md:grid-cols-2 md:grid-rows-2 md:gap-12 lg:grid-cols-3 lg:grid-rows-2'
         >
           {projectsData.map((project, index) => (
             <motion.li

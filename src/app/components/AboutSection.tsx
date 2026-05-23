@@ -4,7 +4,7 @@ import TabButton from "./TabButton";
 
 const tabData = [
   {
-    title: "Skills",
+    title: "SKILLS",
     id: "skills",
     content: (
       <ul className='list-disc pl-2 text-sm'>
@@ -21,7 +21,7 @@ const tabData = [
     ),
   },
   {
-    title: "Education",
+    title: "EDUCATION",
     id: "education",
     content: (
       <ul className='text-sm'>
@@ -58,16 +58,18 @@ const AboutSection = () => {
     <section className='text-white'>
       <div className='items-center gap-2 px-2 py-2 sm:py-2 xl:gap-2 xl:px-2'>
         <div className='mt-2 flex h-full flex-col text-left md:mt-0'>
-          <h2 className='mb-4 text-xl font-bold text-white'>About Me</h2>
+          <h2 className='mb-4 font-mono text-xl font-bold text-[#00e58e]'>
+            ABOUT ME
+          </h2>
           <p className='text-base md:text-sm'>
             I work primarily on game development but have experience in web
             design, software solutions and even some networking and
             CyberSecurity. <br />
-            <br /> I love tinkering with my home server and have recently
-            upgraded it with a UPS, ATS and NUT configuration for graceful
-            shutdown and restart during power outs.
-            <br /> <br /> Away from the computer I love rollerskating at my
-            local rink and thrifting at local markets.
+            <br /> At home i love working on my server and recently I added a
+            UPS and ATS to keep it safe during power outs. I also love making
+            digital art for both my partner and I's streams and when im finally
+            away from the computer I love rollerskating at my local rink,
+            thrifting at local markets and playing DnD.
           </p>
           <div className='mt-8 flex flex-row justify-start'>
             <TabButton
@@ -75,14 +77,14 @@ const AboutSection = () => {
               active={tab === "skills"}
             >
               {" "}
-              Skills{" "}
+              SKILLS{" "}
             </TabButton>
             <TabButton
               selectTab={() => handleTabChange("education")}
               active={tab === "education"}
             >
               {" "}
-              Education{" "}
+              EDUCATION{" "}
             </TabButton>
           </div>
           <div className='mt-4 text-base'>

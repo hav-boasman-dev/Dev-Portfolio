@@ -30,7 +30,7 @@ const ProjectsCard = ({
       className={
         isFullscreen
           ? ""
-          : "absolute top-0 left-0 z-1000 col-span-3 row-span-2 float-left h-full w-full flex-none transform justify-self-start p-0 align-top"
+          : "absolute top-0 left-0 z-1000 col-span-3 row-span-2 float-left block h-full w-full transform justify-self-start p-0 align-top"
       }
     >
       <div
@@ -69,9 +69,9 @@ const ProjectsCard = ({
         }
       >
         <h5 className='mb-2 text-xl font-semibold'>{title}</h5>
-        <p className='text-[#ADB7BE]'>
+        <div className='text-[#ADB7BE]'>
           {isFullscreen ? <p>{description}</p> : <p>{descriptionExtended}</p>}
-        </p>
+        </div>
       </div>
     </div>
   );

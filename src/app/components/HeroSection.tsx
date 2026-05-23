@@ -12,40 +12,33 @@ const HeroSection = () => {
     <section>
       <div className='grid grid-cols-1 sm:grid-cols-12'>
         <div className='col-span-7 place-self-center text-center sm:text-left'>
-          <h1 className='mb-2 text-2xl font-extrabold text-white sm:text-3xl lg:text-4xl'>
-            <span className='bg-linear-to-r from-[#00e58e] to-green-500 bg-clip-text text-transparent'>
-              Hello, I'm Haven
-            </span>
+          <h1 className='mb-2 font-mono text-3xl font-bold text-white sm:text-3xl md:text-4xl lg:text-5xl'>
+            <span className='text-[#00e58e]'>I'M HAVEN</span>
             <br />
-            <span className='text-1xl text-nowrap sm:text-2xl lg:text-3xl'>
-              I'm A{" "}
+            <span className='text-xl sm:text-xl md:text-2xl lg:text-3xl'>
               <TypeAnimation
                 sequence={[
-                  "Games Developer",
+                  "BITEDOWN STUDIO CREATOR",
                   1000,
-                  "Web Developer",
+                  "GAME AND WEB DEVELOPER",
                   1000,
-                  "UI/UX Designer",
-                  1000,
-                  "Software Generalist",
-                  1000,
-                  "Backend Specialist",
+                  "UI / UX DESIGNER",
                   1000,
                 ]}
                 wrapper='span'
                 speed={50}
                 repeat={Infinity}
-              />{" "}
+              />
             </span>
           </h1>
           <p className='lg:text-l sm:text-md mb-4 text-base text-[#ADB7BE]'>
-            I've been expanding my skills into as many areas as I can over the
-            past few years as i believe broader skillsets are becoming more
-            valuable in industry today. <br />
+            This is the homepage of both myself and my solo development studio
+            called BiteDown. I'm expanding my skills into as many areas as I can
+            because I believe broader skillsets are invaluable both as a solo
+            dev and to industry. <br />
             <br /> That being said everyone needs something they're the best at
-            and I've been flinging scripts in Unity and Unreal since grade 5 for
-            that exact reason. <br /> Feel free to reach out to me if you want
-            to collaborate, offer a role or even just chat!
+            and I've been flinging scripts in Unity and Unreal since grade 5 to
+            realise the dream of creating my own games studio.
           </p>
         </div>
         <div className='col-span-5 mt-4 place-self-center lg:mt-0'>
