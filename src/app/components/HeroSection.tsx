@@ -12,10 +12,10 @@ const HeroSection = () => {
     <section>
       <div className='grid grid-cols-1 sm:grid-cols-12'>
         <div className='col-span-7 place-self-center text-center sm:text-left'>
-          <h1 className='mb-2 font-mono text-3xl font-bold text-white sm:text-3xl md:text-4xl lg:text-5xl'>
+          <h1 className='mb-2 font-mono text-4xl font-bold text-white sm:text-4xl md:text-4xl lg:text-5xl'>
             <span className='text-[#00e58e]'>I'M HAVEN</span>
             <br />
-            <span className='text-xl sm:text-xl md:text-2xl lg:text-3xl'>
+            <span className='text-3xl sm:text-2xl md:text-2xl lg:text-3xl'>
               <TypeAnimation
                 sequence={[
                   "BITEDOWN STUDIO CREATOR",
@@ -32,8 +32,8 @@ const HeroSection = () => {
             </span>
           </h1>
           <p className='lg:text-l sm:text-md mb-4 text-base text-[#ADB7BE]'>
-            This is the homepage of both myself and my solo development studio
-            called BiteDown. I'm expanding my skills into as many areas as I can
+            This is the homepage of both myself and my development studio called
+            BiteDown. I'm expanding my skills into as many areas as I can
             because I believe broader skillsets are invaluable both as a solo
             dev and to industry. <br />
             <br /> That being said everyone needs something they're the best at
@@ -42,13 +42,13 @@ const HeroSection = () => {
           </p>
         </div>
         <div className='col-span-5 mt-4 place-self-center lg:mt-0'>
-          <div className='relative h-50 w-50 lg:h-100 lg:w-100'>
+          <div className='relative h-40 w-40 sm:h-40 sm:w-40 md:h-60 md:w-60 lg:h-80 lg:w-80 xl:h-100 xl:w-100'>
             <Image
-              src='/images/nomai_mask.png'
+              src='/images/PressKit/BiteDownStudio_Clear@2x.png'
               alt='hero image'
-              className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform'
-              width={300}
-              height={300}
+              className='relative top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform'
+              width={260}
+              height={260}
             />
           </div>
         </div>

@@ -180,7 +180,7 @@ export default function Home() {
         projects i've worked on and a description to match them.
         ----------------------------------------------------------------------------------------------*/}
         <div
-          className={`card group align-start relative col-span-1 row-span-2 block h-full w-full transform justify-start overflow-hidden border border-[#00e58e] bg-[#1b1b1b] ease-out md:col-span-2 md:row-span-1 lg:col-span-1 lg:row-span-1 ${!pressKitOpen && "card align-start relative col-span-2 row-span-8 block h-full w-full transform justify-start overflow-hidden border border-[#414141] bg-[#1b1b1b] md:col-span-3 md:row-span-8 lg:col-span-4 lg:row-span-8"} ${!projectsOpen && "hidden"}`}
+          className={`card group align-start relative col-span-1 row-span-2 block h-full w-full transform justify-start overflow-hidden border border-[#00e58e] bg-[#1b1b1b] ease-out md:col-span-2 md:row-span-1 lg:col-span-1 lg:row-span-1 ${!pressKitOpen && "absolute col-span-2 row-span-8 flex w-full flex-col justify-start overflow-hidden border border-[#414141] bg-[#1b1b1b] md:col-span-3 md:row-span-8 lg:col-span-4 lg:row-span-8"} ${!projectsOpen && "hidden"}`}
         >
           <button
             onClick={() => {
@@ -209,7 +209,13 @@ export default function Home() {
             </div>
           </button>
 
-          <div className={pressKitOpen ? "hidden" : "visible"}>
+          <div
+            className={
+              pressKitOpen
+                ? "hidden"
+                : "visible grid h-full w-full auto-rows-min grid-rows-1 flex-col"
+            }
+          >
             <PressKit />
           </div>
         </div>

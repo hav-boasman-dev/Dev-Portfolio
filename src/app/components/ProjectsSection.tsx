@@ -50,7 +50,7 @@ const ProjectsSection = () => {
     <section>
       <div className='text-white'>
         <h2 className='mt-4 mb-10 text-center font-mono text-4xl font-bold text-[#00e58e]'>
-          MY PROJECTS / WORK
+          BITEDOWN STUDIO <span className='text-white'>| PROJECTS</span>
         </h2>
         <ul
           ref={ref}
