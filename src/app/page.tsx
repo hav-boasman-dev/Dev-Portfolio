@@ -96,7 +96,7 @@ export default function Home() {
             }}
             className={
               projectsOpen
-                ? "h-full w-full bg-[#00e58e] p-6 text-xl font-bold text-black transition-colors duration-200 ease-in-out hover:bg-[#1b1b1b] hover:text-[#00e58e]"
+                ? "h-full w-full bg-[#00e58e] p-6 text-base font-bold text-black transition-colors duration-200 ease-in-out hover:bg-[#1b1b1b] hover:text-[#00e58e] sm:text-lg md:text-xl lg:text-xl"
                 : "group/button hover:[#00e58e] w-65 border border-[#F92A53] bg-[#F92A53] px-8 py-3 font-bold text-black transition-colors duration-200 ease-in-out hover:bg-[#1b1b1b] hover:text-[#e52525]"
             }
           >
@@ -189,7 +189,7 @@ export default function Home() {
             }}
             className={
               pressKitOpen
-                ? "h-full w-full bg-[#00e58e] p-6 text-xl font-bold text-black transition-colors duration-200 ease-in-out hover:bg-[#1b1b1b] hover:text-[#00e58e]"
+                ? "h-full w-full bg-[#00e58e] p-6 text-base font-bold text-black transition-colors duration-200 ease-in-out hover:bg-[#1b1b1b] hover:text-[#00e58e] sm:text-lg md:text-xl lg:text-xl"
                 : "group/button hover:[#00e58e] w-65 border border-[#F92A53] bg-[#F92A53] px-8 py-3 font-bold text-black transition-colors duration-200 ease-in-out hover:bg-[#1b1b1b] hover:text-[#e52525]"
             }
           >

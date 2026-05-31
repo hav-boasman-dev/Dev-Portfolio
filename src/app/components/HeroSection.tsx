@@ -13,8 +13,8 @@ const HeroSection = () => {
       <div className='grid grid-cols-1 sm:grid-cols-12'>
         <div className='col-span-7 place-self-center text-center sm:text-left'>
           <h1 className='mb-2 font-mono text-4xl font-bold text-white sm:text-4xl md:text-4xl lg:text-5xl'>
-            <span className='text-[#00e58e]'>I'M HAVEN</span>
-            <br />
+            {/*<span className='text-[#00e58e]'>I'M HAVEN</span>
+            <br /> */}
             <span className='text-3xl sm:text-2xl md:text-2xl lg:text-3xl'>
               <TypeAnimation
                 sequence={[
