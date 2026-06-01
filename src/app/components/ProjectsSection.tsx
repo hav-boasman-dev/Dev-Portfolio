@@ -14,8 +14,8 @@ const projectsData = [
     description3:
       "The game is broken down into days and weeks. Each day is another set of hidden cards that are either enemies, bonuses or nasty surprises. You flip each card one by one and spend your energy defeating enemies for gold and risking burnout to keep up with rent that is due at the end of each week. It was important that I fine tuned this gameplay loop so that a player would almost certainly reach further into the game before failing but also fail before the 7th week. The game is intentionally unwinnable and just a test of how far you can get in this unfair scenario.",
     image: "/images/Projects/theLongestDungeonCard.png",
-    image2: "/images/Projects/theLongestDungeonScreenshot1.png",
-    image3: "/images/Projects/theLongestDungeonScreenshot2.png",
+    image2: "/images/Projects/theLongestDungeonImage1.png",
+    image3: "/images/Projects/theLongestDungeonImage2.png",
     gitUrl: "https://github.com/hav-boasman-dev/TheLongDungeon",
   },
   {

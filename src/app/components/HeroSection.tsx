@@ -44,7 +44,7 @@ const HeroSection = () => {
         <div className='col-span-5 mt-4 place-self-center lg:mt-0'>
           <div className='relative h-40 w-40 sm:h-40 sm:w-40 md:h-60 md:w-60 lg:h-80 lg:w-80 xl:h-100 xl:w-100'>
             <Image
-              src='/images/PressKit/BiteDownStudio_Clear@2x.png'
+              src='/images/PressKit/ByteDownStudio_Clear@2x.png'
               alt='hero image'
               className='relative top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform'
               width={260}
