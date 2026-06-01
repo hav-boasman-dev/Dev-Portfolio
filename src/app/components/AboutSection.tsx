@@ -65,11 +65,10 @@ const AboutSection = () => {
             I work primarily on game development but have experience in web
             design, software solutions and even some networking and
             CyberSecurity. <br />
-            <br /> At home i love working on my server and recently I added a
-            UPS and ATS to keep it safe during power outs. I also love making
-            digital art for both my partner and I's streams and when im finally
-            away from the computer I love rollerskating at my local rink,
-            thrifting at local markets and playing DnD.
+            <br /> At home i love making digital art for both my partner and I's
+            streams and when im finally away from the computer I love
+            rollerskating at my local rink, thrifting at local markets and
+            playing DnD.
           </p>
           <div className='mt-8 flex flex-row justify-start'>
             <TabButton

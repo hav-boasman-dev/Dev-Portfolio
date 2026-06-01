@@ -4,9 +4,9 @@ import ArrowSvg from "./ArrowSvg";
 
 const PressKit = () => {
   return (
-    <div className='h-full overflow-hidden sm:h-full sm:overflow-hidden md:h-full md:overflow-y-scroll lg:h-full lg:overflow-y-scroll [&::-webkit-scrollbar]:w-0'>
+    <div className='h-full overflow-hidden sm:overflow-hidden md:overflow-y-scroll lg:overflow-y-scroll [&::-webkit-scrollbar]:w-0'>
       <div className='mt-8 mb-4 text-center font-mono text-4xl font-bold text-[#00e58e]'>
-        BITEDOWN STUDIO <span className='text-white'>| PRESS KIT</span>
+        BYTEDOWN STUDIO <span className='text-white'>| PRESS KIT</span>
       </div>
       <div className='relative grid h-full w-full auto-rows-auto grid-cols-4 gap-4 p-6 sm:gap-4 md:grid-cols-4 md:gap-8 lg:grid-cols-5 lg:gap-10'>
         {/*---------------------------------------------------------------------------------------------- 
@@ -14,15 +14,15 @@ const PressKit = () => {
         ----------------------------------------------------------------------------------------------*/}
         <div className='col-span-1 row-span-1 flex h-fit flex-col items-center justify-between align-middle'>
           <Image
-            src='/images/PressKit/BiteDownStudio_Clear@2x.png'
-            alt='bitedown studio logo'
+            src='/images/PressKit/ByteDownStudio_Clear@2x.png'
+            alt='bytedown studio logo'
             className='flex'
             width={320}
             height={320}
           />
           <Image
-            src='/images/PressKit/BiteDownStudio_TextGreen@2x.png'
-            alt='bitedown studio logo'
+            src='/images/PressKit/ByteDownStudio_TextGreen@2x.png'
+            alt='bytedown studio logo'
             className='flex py-6'
             width={320}
             height={320}
@@ -30,8 +30,8 @@ const PressKit = () => {
           <button className='flex h-full w-full'>
             <a
               className='flex hover:text-[#00e58e]'
-              href='/publicfiles/BiteDown_Studio_Branding_v1.zip'
-              download='BiteDownStudioBranding'
+              href='/publicfiles/ByteDown_Studio_Branding_v1.zip'
+              download='ByteDownStudioBranding'
             >
               Download all branding as .zip ↓
             </a>
@@ -39,10 +39,10 @@ const PressKit = () => {
         </div>
         <div className='col-span-3 row-span-1 flex h-full w-full flex-col text-base sm:text-base md:col-span-3 md:text-lg lg:col-span-4 lg:text-xl'>
           <div className='text-xl text-[#00e58e] sm:text-xl md:text-2xl lg:text-3xl'>
-            BiteDown Studio Description
+            ByteDown Studio Description
           </div>
           <div>
-            Bitedown studio is a game studio focused on bringing a bold and
+            Bytedown studio is a game studio focused on bringing a bold and
             unyielding style that subverts modern corporate standards and steps
             away from the mainline trends that populate the gaming space today.
             <br /> The studio's goal is to join/support the modern movement
@@ -82,11 +82,11 @@ const PressKit = () => {
             Our Story
           </div>
           <div>
-            BiteDown Studio was formed as a name to put my own projects under
+            ByteDown Studio was formed as a name to put my own projects under
             while I studied and looked for stable work but over time my partner
             began helping with voice acting, concept development, and
             world-building within projects. I decided to officially add them as
-            the second member of BiteDown in 2026 and since then I've wanted to
+            the second member of ByteDown in 2026 and since then I've wanted to
             try and grow the studio into something more than just a personal
             passion project.
             <br />

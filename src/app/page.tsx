@@ -33,16 +33,16 @@ export default function Home() {
           <div className='pt-4 pl-0 sm:pt-4 sm:pl-0 md:pt-0 md:pl-8 lg:pt-0 lg:pl-10'>
             <div className='animate-ticker-top sm:animate-ticker-top md:animate-ticker-side lg:animate-ticker-sideflex shrink-0 origin-left font-mono text-4xl font-bold whitespace-nowrap text-black md:rotate-90 lg:rotate-90'>
               <span className='shrink-0 whitespace-pre'>
-                {"BITEDOWN_STUDIO   //   "}{" "}
+                {"BYTEDOWN_STUDIO   //   "}{" "}
               </span>
               <span className='shrink-0 whitespace-pre'>
-                {"BITEDOWN_STUDIO   //   "}{" "}
+                {"BYTEDOWN_STUDIO   //   "}{" "}
               </span>
               <span className='shrink-0 whitespace-pre'>
-                {"BITEDOWN_STUDIO   //   "}{" "}
+                {"BYTEDOWN_STUDIO   //   "}{" "}
               </span>
               <span className='shrink-0 whitespace-pre'>
-                {"BITEDOWN_STUDIO   //   "}{" "}
+                {"BYTEDOWN_STUDIO   //   "}{" "}
               </span>
             </div>
           </div>
@@ -61,9 +61,11 @@ export default function Home() {
         hook section to interest people and my personal studio logo.
         ----------------------------------------------------------------------------------------------*/}
         <div
-          className={`card group align-start relative col-span-2 row-span-4 block h-full w-full transform justify-start overflow-hidden border border-[#414141] bg-[#1b1b1b] p-6 transition-all duration-300 ease-out hover:border-[#00e58e] md:col-span-3 ${!projectsOpen && "hidden"} ${!pressKitOpen && "hidden"}`}
+          className={`card group align-items-center col-span-2 row-span-4 flex h-full w-full transform justify-center overflow-hidden border border-[#414141] bg-[#1b1b1b] px-6 py-4 align-middle transition-all duration-300 ease-out hover:border-[#00e58e] md:col-span-3 ${!projectsOpen && "hidden"} ${!pressKitOpen && "hidden"}`}
         >
-          <HeroSection />
+          <div className={"flex h-full"}>
+            <HeroSection />
+          </div>
         </div>
 
         {/*---------------------------------------------------------------------------------------------- 
@@ -87,7 +89,7 @@ export default function Home() {
         project to view more information on it.
         ----------------------------------------------------------------------------------------------*/}
         <div
-          className={`card group align-start relative col-span-1 row-span-2 block h-full w-full transform justify-start overflow-hidden border border-[#00e58e] bg-[#1b1b1b] ease-out md:col-span-2 md:row-span-1 lg:col-span-1 lg:row-span-1 ${!projectsOpen && "card align-start relative col-span-2 row-span-8 block h-full w-full transform justify-start overflow-hidden border border-[#414141] bg-[#1b1b1b] md:col-span-3 md:row-span-8 lg:col-span-4 lg:row-span-8"} ${!pressKitOpen && "hidden"}`}
+          className={`card group align-items-center relative col-span-1 row-span-2 block h-full w-full transform justify-start overflow-hidden border border-[#00e58e] bg-[#1b1b1b] align-middle ease-out md:col-span-2 md:row-span-1 lg:col-span-1 lg:row-span-1 ${!projectsOpen && "card align-start relative col-span-2 row-span-8 block h-full w-full transform justify-start overflow-hidden border border-[#414141] bg-[#1b1b1b] md:col-span-3 md:row-span-8 lg:col-span-4 lg:row-span-8"} ${!pressKitOpen && "hidden"}`}
         >
           <button
             onClick={() => {
@@ -116,7 +118,7 @@ export default function Home() {
             </div>
           </button>
 
-          <div className={projectsOpen ? "hidden" : "visible"}>
+          <div className={projectsOpen ? "hidden" : "visible px-6"}>
             <ProjectsSection />
           </div>
         </div>
@@ -245,16 +247,16 @@ export default function Home() {
           <div className='pt-4 pl-0 sm:pt-4 sm:pl-0 md:pt-0 md:pl-8 lg:pt-0 lg:pl-10'>
             <div className='animate-ticker-top sm:animate-ticker-top md:animate-ticker-side lg:animate-ticker-sideflex shrink-0 origin-left font-mono text-4xl font-bold whitespace-nowrap text-black md:rotate-90 lg:rotate-90'>
               <span className='shrink-0 whitespace-pre'>
-                {"BITEDOWN_STUDIO   //   "}{" "}
+                {"BYTEDOWN_STUDIO   //   "}{" "}
               </span>
               <span className='shrink-0 whitespace-pre'>
-                {"BITEDOWN_STUDIO   //   "}{" "}
+                {"BYTEDOWN_STUDIO   //   "}{" "}
               </span>
               <span className='shrink-0 whitespace-pre'>
-                {"BITEDOWN_STUDIO   //   "}{" "}
+                {"BYTEDOWN_STUDIO   //   "}{" "}
               </span>
               <span className='shrink-0 whitespace-pre'>
-                {"BITEDOWN_STUDIO   //   "}{" "}
+                {"BYTEDOWN_STUDIO   //   "}{" "}
               </span>
             </div>
           </div>
